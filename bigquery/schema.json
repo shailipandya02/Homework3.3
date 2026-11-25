@@ -1,0 +1,21 @@
+[
+  {"name": "order_id",        "type": "STRING",  "mode": "REQUIRED"},
+  {"name": "order_date",      "type": "DATE",    "mode": "REQUIRED"},
+  {"name": "customer_id",     "type": "STRING",  "mode": "REQUIRED"},
+  {"name": "customer_name",   "type": "STRING"},
+  {"name": "customer_email",  "type": "STRING"},
+  {"name": "country",         "type": "STRING"},
+  {"name": "city",            "type": "STRING"},
+  {"name": "latitude",        "type": "FLOAT"},
+  {"name": "longitude",       "type": "FLOAT"},
+  {"name": "product_id",      "type": "STRING",  "mode": "REQUIRED"},
+  {"name": "product_name",    "type": "STRING"},
+  {"name": "category",        "type": "STRING"},
+  {"name": "quantity",        "type": "INTEGER"},
+  {"name": "unit_price",      "type": "NUMERIC"},
+  {"name": "discount_pct",    "type": "INTEGER"},
+  {"name": "total_amount",    "type": "NUMERIC"},
+  {"name": "payment_method",  "type": "STRING"},
+  {"name": "order_status",    "type": "STRING"},
+  {"name": "shipping_method", "type": "STRING"}
+]
